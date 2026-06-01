@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Motors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Premium Motors</h1>
+        <p>Encontre o carro dos seus sonhos aqui</p>
+    </header>
+
+    <main class="container">
+        <div class="card-carro">
+            <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=500&q=80" alt="Carro Esportivo" class="foto-carro">
+            
+            <div class="conteudo">
+                <h2>Esportivo SuperSport</h2>
+                <p class="descricao">Motor V8 Twin-Turbo, 600cv, aceleração de 0 a 100 km/h em 3.2 segundos. Design aerodinâmico e interior em couro legítimo.</p>
+                
+                <button id="botao-curtir">
+                    ❤️ <span id="contador-likes">0</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
